@@ -1,0 +1,24 @@
+description=input("description :")
+
+title = input("title : ")
+create_yt_video(title,description)
+def create_yt_video(title,description):
+	my dictionary={"title": title,"description":description,"likes":0,"dislikes":0,"comments":{}}
+	return my_dictionary
+
+def like(dictionary):
+	if "likes" in dictionary:
+		dictionary["likes"]+=1
+	return dictionary
+while likes <494:
+	likes+=1
+
+def dislike(dictionary):
+	if "likes" in dictionary:
+		dictionary["likes"]+=1
+	return dictionary
+	def add_comment(yt video,username,comment_text)
+	add_comment("username": comment , "dictionary":comment_text)
+
+while likes <494:
+	likes+=1
