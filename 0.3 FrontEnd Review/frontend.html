@@ -1,0 +1,45 @@
+<div><br class="Apple-interchange-newline"><html>
+<head>
+	<title>football</title>
+	<style>
+		body {
+			background-color: lightblue;
+		}
+		#font {
+			font-size: 36px;
+		}
+		.bombo {
+			color: darkred;
+		}
+	</style>
+	<script src="main.js"></script>
+</head>
+<body id="body">
+	<h1 id="font">football!</h1>
+	<h2 class="bombo">Do you want to know more about <a href= "https://en.wikipedia.org/wiki/Football"><span zeum4c2="PR_1_0" data-ddnwab="PR_1_0" aria-invalid="grammar" class="Lm ng">football</a>,</span> if yes then this is the page for you</h2>
+	<p>Football, a sport of passion and strategy, unites fans worldwide in fervent cheers and competitive spirit. The thrill of the game unfolds on the field, where skillful maneuvers and teamwork determine victory. From grassroots to professional leagues, its enduring popularity captivates hearts and inspires dreams.
+
+
+
+.</p>
+	<img src="images.jpeg">
+	<h3>Choose your favorite color:</h3>
+	<form  name="form" id="form">
+		<input type="radio" id="red" name="favorite_color" value="red">
+		<label for="red">Red</label><br>
+		<input type="radio" id="blue" name="favorite_color" value="blue">
+		<label for="blue">Blue</label><br>
+		<input type="radio" id="green" name="favorite_color" value="green">
+		<label for="green">Green</label><br>
+		<input type="radio" id="yellow" name="favorite_color" value="yellow">
+		<label for="yellow">Yellow</label><br>
+		<input type="radio" id="other" name="favorite_color" value="other">
+		<label for="other">Other</label>
+	</form>
+	<button onclick="changeBackgroundColor()">Change BackGround Color</button>
+</body>
+<script type="text/javascript">
+	function changeBackgroundColor(){
+		document.getElementById("body").style.backgroundColor=document.forms.form.elements.favorite_color.value
+	}
+</script>
